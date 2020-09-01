@@ -6,7 +6,7 @@ class Welcome extends StatelessWidget {
     return ListView(
       children: <Widget>[
         Image(
-          image: AssetImage('images/job.png'),
+          image: AssetImage('images/PROFIT.png'),
         ),
         Text(
           'Welcome to Profit Plot',
@@ -15,7 +15,12 @@ class Welcome extends StatelessWidget {
             fontSize: 42,
             fontWeight: FontWeight.w700,
           ),
-        )
+        ),
+        AlertDialog(
+          title: Text('For the Users notice!'),
+          content: Text(
+              'This is project is only a prototype. Although we are continuesly updating our app.'),
+        ),
       ],
     );
   }

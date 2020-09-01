@@ -9,6 +9,7 @@ import 'package:profit_plot/Pages/urgent_page.dart';
 import 'package:profit_plot/Pages/welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:toast/toast.dart';
 
 void main() {
   runApp(MyApp());
@@ -74,7 +75,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             DrawerHeader(
               child: Image(
                 image: AssetImage(
-                  'images/make in india.png',
+                  'images/techno.png',
                 ),
               ),
             ),
@@ -174,7 +175,5 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
     );
   }
 }
-
-
 
 //©Techno-Demons
